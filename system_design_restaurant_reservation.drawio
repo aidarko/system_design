@@ -1,0 +1,159 @@
+<mxfile host="app.diagrams.net" modified="2023-12-22T22:02:35.410Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="q-t-7sak3H74pRRbVuHo" version="22.1.11" type="device">
+  <diagram name="Page-1" id="ZZSd4HM62RbX2c47QIu4">
+    <mxGraphModel dx="988" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-79" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.925;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-14" target="7qGTJKBD6qKdbUM0u3QY-78">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="500" as="sourcePoint" />
+            <mxPoint x="652" y="538" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-61" value="success" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-58" target="7qGTJKBD6qKdbUM0u3QY-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-58" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="330" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-1" value="Questions:&lt;br&gt;1. One restaurant or any?&lt;br&gt;2. Optimize performance and reliability over cost?" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-7" value="Reservation API:&lt;br&gt;1. Create reservation. POST /reservations&lt;br&gt;2. Cancel reservation. DELETE /reservations/{id}&lt;br&gt;3. Update reservation. PUT /reservations/{id}&lt;br&gt;&lt;br&gt;Restaurant API:&amp;nbsp;&lt;br&gt;CRUD /restaurants/{id}" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry y="190" width="390" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-11" target="7qGTJKBD6qKdbUM0u3QY-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-11" value="Clients" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="150" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-14" value="NoSql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=7.285714285714249;" vertex="1" parent="1">
+          <mxGeometry x="539.5" y="440" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-19" target="7qGTJKBD6qKdbUM0u3QY-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-19" value="Load Balancer" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="537.5" y="250" width="65" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-25" value="Analytics" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="390" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-26" value="&lt;b&gt;Restaurant&lt;br&gt;&lt;/b&gt;&lt;br&gt;ID&lt;br&gt;Table layout&lt;br&gt;Walk-up holdback&lt;br&gt;Reservation length&lt;br&gt;Business hours&lt;br&gt;Name&lt;br&gt;Address&lt;br&gt;Phone" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="270" y="20" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-28" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="200" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-32" value="1" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;glass=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="240" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-39" value="&lt;b&gt;Customer&lt;br&gt;&lt;/b&gt;&lt;br&gt;ID&lt;br&gt;Name&lt;br&gt;Phone&lt;br&gt;Email&lt;br&gt;Preferences&lt;br&gt;Location" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="390" y="20" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-40" value="&lt;b&gt;Reservation&lt;br&gt;&lt;/b&gt;&lt;br&gt;Customer ID&lt;br&gt;Restaurant ID&lt;br&gt;Time slot&lt;br&gt;Party size&lt;br&gt;Notes (dietary, BD)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="510" y="20" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-41" value="Data Schema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-55" value="Notifications&lt;br&gt;sms/email" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="390" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-56" value="User Management System" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="325" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-57" value="Reservations service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="320" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-59" value="reminders" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.987;entryY=0.584;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-55" target="7qGTJKBD6qKdbUM0u3QY-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="705" y="470" />
+              <mxPoint x="630" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-62" target="7qGTJKBD6qKdbUM0u3QY-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-62" value="cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="370" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-64" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#3B8DF1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.view_list" vertex="1" parent="1">
+          <mxGeometry x="440" y="440" width="16.2" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-66" value="Customers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="461.2" y="435" width="63.8" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-67" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#3B8DF1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.view_list" vertex="1" parent="1">
+          <mxGeometry x="440" y="465" width="16.2" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-68" value="Reservations" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="466.2" y="460" width="63.8" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-69" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#3B8DF1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.view_list" vertex="1" parent="1">
+          <mxGeometry x="440" y="490" width="16.2" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-70" value="Restaurant" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="461.2" y="485" width="63.8" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-71" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=1.015;entryY=0.111;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7qGTJKBD6qKdbUM0u3QY-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="290" as="sourcePoint" />
+            <mxPoint x="550" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-72" value="Join on client side" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="270" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-73" value="+ geo-routing" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="602.5" y="235" width="87.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-74" value="+ cdn" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="602.5" y="200" width="47.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-75" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="540" y="480" width="16.8" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-76" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="561.6" y="480" width="16.8" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-77" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="583.2" y="480" width="16.8" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-78" value="&lt;div&gt;DynamoDB has Condition expressions for optimistic locks&lt;br&gt;&lt;/div&gt;&lt;div&gt;aws dynamodb put-item \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; --table-name ProductCatalog \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; --item file://item.json \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; --condition-expression &quot;attribute_not_exists(Id)&quot;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="530" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-80" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.124;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=33.857142857142875;exitPerimeter=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-14" target="7qGTJKBD6qKdbUM0u3QY-81">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="485" as="sourcePoint" />
+            <mxPoint x="681" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-81" value="RDBMS might be still good depending on traffic volume" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="530" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-82" value="Restaurant search system" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="325" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-84" value="&lt;div&gt;&lt;b&gt;Lightweight Transactions:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;While IF NOT EXISTS is a lightweight transaction in Cassandra, it comes with certain performance considerations, and its use should be judicious. It introduces additional coordination overhead compared to regular writes.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="456.2" y="620" width="330" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-85" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.593;entryY=-0.046;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-77" target="7qGTJKBD6qKdbUM0u3QY-84">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585" y="524" as="sourcePoint" />
+            <mxPoint x="670" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-86" value="2" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;glass=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="190" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-87" value="3" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;glass=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="611.2" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
