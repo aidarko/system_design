@@ -1,0 +1,374 @@
+<mxfile host="app.diagrams.net" modified="2024-01-07T04:44:13.268Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="yK83aHjisoQL9cG3p77g" version="22.1.11" type="device">
+  <diagram name="Page-1" id="ZZSd4HM62RbX2c47QIu4">
+    <mxGraphModel dx="988" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-145" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B8B8B8;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="470" y="829" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-1" value="&lt;div&gt;There are 2 types of traffic shaping algorithms:&amp;nbsp;&lt;/div&gt;&lt;div&gt;1. Token Bucket&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. Leaky Bucket&lt;/div&gt;&lt;div&gt;3. Fixed window counter algorithm&lt;/div&gt;&lt;div&gt;4. Sliding window log algorithm&lt;/div&gt;&lt;div&gt;5. Sliding window counter algorithm&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Rate limiter usually implemented within an API Gateway (which might have SSL termination, authentication, IP whitelisting, etc).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Q: Where to implement server side, client side or gateway?&lt;/div&gt;&lt;div&gt;Library or service?&lt;/div&gt;&lt;div&gt;Based on IP, user ID or other properties?&lt;/div&gt;&lt;div&gt;Scale of the system?&lt;/div&gt;&lt;div&gt;Is distributed environment?&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry width="390" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-11" target="7qGTJKBD6qKdbUM0u3QY-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-11" value="requests" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="459" width="66.2" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-19" value="drop requests: 429 status" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="505.35" y="544" width="75.7" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-25" target="7qGTJKBD6qKdbUM0u3QY-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-25" value="FIFO&lt;br&gt;queue" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="459" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-32" value="1" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;glass=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="380" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-71" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=1.015;entryY=0.111;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-72">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="421.23" as="sourcePoint" />
+            <mxPoint x="651.5" y="459" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-72" value="A variation of the leaky bucket algorithm where the bucket is replaced by a queue. In this case, the outflow rate would be controlled by the rate at which elements are dequeued from the queue. This can indeed achieve a similar effect to a leaky bucket, particularly if you control the dequeuing rate." style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="540" y="329" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-86" value="3" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;glass=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="409" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-90" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-88" target="7qGTJKBD6qKdbUM0u3QY-19">
+          <mxGeometry x="0.2002" y="17" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-91" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-88" target="7qGTJKBD6qKdbUM0u3QY-25">
+          <mxGeometry x="0.2479" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-88" value="bucket full?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="503.20000000000005" y="434" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-94" value="process at fixed rate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="459" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-96" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Leaky Bucket&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="423.2" y="409" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-97" value="&lt;div&gt;&lt;b&gt;Token Bucket Algorithm&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Operation&lt;/b&gt;: The token bucket algorithm maintains a bucket of tokens at a fixed rate. Tokens are added to the bucket at a constant rate, and each token represents permission to transmit a certain amount of data.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Usage&lt;/b&gt;: When a device wants to transmit data, it must first acquire a token from the bucket. If there are no tokens available, the device has to wait until tokens become available.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Burstiness&lt;/b&gt;: The token bucket algorithm allows for bursts of data transmission, as long as the average rate over time does not exceed the token arrival rate.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;Adaptability&lt;/b&gt;: It is adaptive and can handle varying traffic patterns well.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry y="224" width="390" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-98" value="&lt;div&gt;&lt;b&gt;Leaky Bucket&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Operation&lt;/b&gt;: The leaky bucket algorithm enforces a constant output rate by averaging bursts of data. It enforces a fixed output rate by removing data from the bucket at a constant rate.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Usage&lt;/b&gt;: Incoming data is added to the bucket, and if the bucket overflows, excess data is discarded or marked for future handling. &lt;span style=&quot;background-color: rgb(212, 225, 245);&quot;&gt;The constant output rate ensures a steady stream of data.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Burstiness&lt;/b&gt;: Leaky bucket tends to smooth out bursts by discarding excess packets that would cause congestion.&lt;/div&gt;&lt;div&gt;&lt;b&gt;Adaptability&lt;/b&gt;: It is less adaptive than the token bucket as it doesn&#39;t provide bursts of data, but it helps in controlling the overall rate more strictly.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry y="409" width="390" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-100" value="While using a queue can be a valid alternative to a leaky bucket, the key is to ensure that you have mechanisms in place to control the rate at which items are dequeued." style="text;whiteSpace=wrap;strokeColor=default;rounded=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="529" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-101" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-25" target="7qGTJKBD6qKdbUM0u3QY-100">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660.25" y="504" as="sourcePoint" />
+            <mxPoint x="649.75" y="544" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-102" value="2" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;glass=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="224" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-103" target="7qGTJKBD6qKdbUM0u3QY-104">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="249" />
+              <mxPoint x="490" y="249" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-103" value="requests" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="234" width="66.2" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-106" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-104">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="249" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="249" />
+              <mxPoint x="630" y="249" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-107" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-104">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="319" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-104" value="enough tokens?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="209" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-109" target="7qGTJKBD6qKdbUM0u3QY-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-109" value="bucket" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="526.9" y="159" width="66.2" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-110" target="7qGTJKBD6qKdbUM0u3QY-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-110" value="refiller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="526.9" y="109" width="66.2" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-113" value="&lt;div&gt;&lt;b&gt;Fixed window counter algorithm&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Operation&lt;/b&gt;: divides&amp;nbsp; the timeline into fix-sized time windows and assign threshold for each window&lt;/div&gt;&lt;div&gt;&lt;b&gt;Usage&lt;/b&gt;: resetting quota at the end of a unit time window fits certain use cases&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Burstiness&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;: spike in traffic at the edges of a window could cause more requests than allowed&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry y="609" width="390" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-114" value="4" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;glass=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="609" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="689" as="sourcePoint" />
+            <mxPoint x="440" y="609" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="689" as="sourcePoint" />
+            <mxPoint x="700" y="689" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-117" value="1:00:00" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="435.88" y="689" width="54.65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-118" value="1:00:01" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="503.2" y="689" width="54.65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-119" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="448.2" y="669" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-120" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="448.2" y="649" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-122" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515.53" y="669" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-123" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515.53" y="649" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-124" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="515.53" y="629" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-125" value="&lt;div&gt;&lt;b&gt;Sliding window log algorithm&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Store timestamp of event in cache.&lt;/div&gt;&lt;div&gt;1:00:50 is rejected even though the timestamp remains in the log.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry y="739" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-130" value="X" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-126">
+          <mxGeometry x="-0.0403" y="5" relative="1" as="geometry">
+            <mxPoint x="610" y="744" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-126" value="1:00:01&lt;br&gt;1:00:30&lt;br&gt;1:00:50" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505.35" y="729" width="66.2" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-127" target="7qGTJKBD6qKdbUM0u3QY-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-127" value="1:00:50" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="419.78" y="734" width="54.65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-131" value="V" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-132">
+          <mxGeometry x="-0.0403" y="5" relative="1" as="geometry">
+            <mxPoint x="820" y="744" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-132" value="&lt;strike&gt;1:00:01&lt;br&gt;1:00:30&lt;/strike&gt;&lt;br&gt;1:00:50&lt;br&gt;1:01:40" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="715.35" y="729" width="66.2" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-134" target="7qGTJKBD6qKdbUM0u3QY-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-134" value="1:01:40" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="629.78" y="734" width="54.65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-135" value="5" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;glass=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="739" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-136" value="&lt;div&gt;&lt;b&gt;Sliding window counter algorithm&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Combine previous 2 algos.&lt;/div&gt;&lt;div&gt;Compare with threshold: requests in current window + requests in previous window * overlap % of the rolling window and previous window&lt;/div&gt;&lt;div&gt;Example: 3 + 5 * 0.7% = 6.5 requests (1 more to limit of 7)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* Smooths out spikes in traffic because the rate based on the average rate of the previous window.&lt;/div&gt;&lt;div&gt;* memory efficient&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Cloudflare states, that only 0.003% of requests are wrongly allowed or rate limited.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry y="799" width="390" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="920" as="sourcePoint" />
+            <mxPoint x="440" y="799" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="919" as="sourcePoint" />
+            <mxPoint x="700" y="919" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-139" value="1:00:00" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="445.35" y="919" width="54.65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-140" value="1:01:00" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="503.20000000000005" y="919" width="54.65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-141" value="prev minutre" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="448.2" y="859" width="51.8" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-143" value="curr&amp;nbsp;&lt;br&gt;minute" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="859" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-146" value="rolling minute" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="457.78" y="809" width="87.75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-147" value="current time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="581.05" y="829" width="87.75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-148" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.63;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-147" target="7qGTJKBD6qKdbUM0u3QY-143">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-149" value="70%" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="466.20000000000005" y="839" width="34.65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-150" value="30%" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500.00000000000006" y="839" width="34.65" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-151" value="6" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;glass=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="799" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-154" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-152" target="7qGTJKBD6qKdbUM0u3QY-153">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-152" value="Client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="423.2" y="979.5" width="90" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-156" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-153" target="7qGTJKBD6qKdbUM0u3QY-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-158" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-153" target="7qGTJKBD6qKdbUM0u3QY-157">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-153" value="Rate limiter" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="545.5299999999999" y="974" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-155" value="API Servers" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="979.5" width="74.72" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-157" value="Redis" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="548.17" y="1026.5" width="99.72" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-159" value="&lt;div&gt;&lt;b&gt;High Level Architecture&lt;/b&gt;&lt;/div&gt;&lt;div&gt;In memory cache chosen because it&#39;s fast&amp;nbsp; and supports TTL.&lt;/div&gt;&lt;div&gt;Redis has 2 commands INCR and EXPIRE.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry y="980" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-160" value="7" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;glass=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="980" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-161" value="&lt;div&gt;&lt;b&gt;Deep dive Architecture&lt;/b&gt;&lt;/div&gt;&lt;div&gt;1. How rules are created&lt;/div&gt;&lt;div&gt;2. How to handle requests that are rate limited?&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry y="1040" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-163" value="&lt;b&gt;Rules&lt;br&gt;&lt;/b&gt;Written in configuration files and saved on disk.&lt;br&gt;domain: messaging&lt;br&gt;descriptors:&amp;nbsp;&lt;br&gt;&amp;nbsp; - key: message_type&lt;br&gt;&amp;nbsp; &amp;nbsp; value: marketing&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; rate_limit:&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; unit: day&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; requests_per_unit: 5" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry y="1090" width="390" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-164" value="&lt;b&gt;Headers&lt;br&gt;&lt;/b&gt;RESTful API frameworks using Github’s standards&lt;br&gt;X-RateLimit-Limit &lt;i&gt;calls per time window&lt;/i&gt;&lt;br&gt;X-RateLimit-Remaining &lt;i&gt;remaining calls per time window&lt;/i&gt;&lt;br&gt;X-RateLimit-Retry-After &lt;i&gt;throttling&lt;br&gt;&lt;br&gt;Status 429&lt;br&gt;&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1090" width="430" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-162" value="8" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;glass=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1074" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-166" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-167" target="7qGTJKBD6qKdbUM0u3QY-170">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-167" value="Client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="258.48" y="1285.5" width="90" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-168" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.02;entryY=0.173;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-170" target="7qGTJKBD6qKdbUM0u3QY-171">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="1295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-169" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-170" target="7qGTJKBD6qKdbUM0u3QY-172">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-177" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-170" target="7qGTJKBD6qKdbUM0u3QY-174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-183" value="429: too many requests" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-170" target="7qGTJKBD6qKdbUM0u3QY-167">
+          <mxGeometry x="0.0481" y="10" relative="1" as="geometry">
+            <mxPoint x="410" y="1420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="433" y="1360" />
+              <mxPoint x="304" y="1360" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-170" value="Rate limiter" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="380.80999999999983" y="1280" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-171" value="API Servers" style="whiteSpace=wrap;html=1;rounded=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="525.28" y="1285.5" width="74.72" height="54.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-172" value="Redis" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="527.78" y="1360" width="69.72" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-174" value="Cache" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="419.77999999999986" y="1230" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-178" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-175" target="7qGTJKBD6qKdbUM0u3QY-174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-179" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-175" target="7qGTJKBD6qKdbUM0u3QY-176">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-175" value="Workers" style="whiteSpace=wrap;html=1;rounded=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="567.5" y="1220" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-176" value="Rules" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="668.7999999999998" y="1230" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-180" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.datacenter;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1243" width="30" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-182" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.datacenter;" vertex="1" parent="1">
+          <mxGeometry x="547.64" y="1309.5" width="30" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-184" value="rate limited" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365.88" y="1312.5" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-185" value="drop requests" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.drop" vertex="1" parent="1">
+          <mxGeometry x="493.2" y="1380" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-186" value="queue requests" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.azure.queue_generic" vertex="1" parent="1">
+          <mxGeometry x="450.19" y="1460" width="66.67" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-187" value="option 1" style="endArrow=classic;html=1;rounded=0;entryX=0.048;entryY=0.37;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" target="7qGTJKBD6qKdbUM0u3QY-185">
+          <mxGeometry x="0.2593" y="7" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="1360" as="sourcePoint" />
+            <mxPoint x="400" y="1270" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-188" value="option 2" style="endArrow=classic;html=1;rounded=0;entryX=0.048;entryY=0.626;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" target="7qGTJKBD6qKdbUM0u3QY-186">
+          <mxGeometry x="0.0752" y="-10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="1360" as="sourcePoint" />
+            <mxPoint x="497" y="1411" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-189" target="7qGTJKBD6qKdbUM0u3QY-172">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-189" value="Problems:&lt;br&gt;1. Race condition (solve via Lua script)&lt;br&gt;2. Synchronization (but centralized storage system like Redis solves it)" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="642.5" y="1322.5" width="177.5" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-191" value="Performance optimization:&amp;nbsp;&lt;br&gt;1. Use Edge servers to reduce latency" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1420" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-192" value="Monitoring" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="597.5" y="1470" width="220" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
