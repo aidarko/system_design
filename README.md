@@ -8,3 +8,4 @@ Additional links:
 - End-to-end encryption: https://medium.com/@panghalamit/whatsapp-s-end-to-end-encryption-how-does-it-work-80020977caa0
 - Authentication between microservices: https://www.doit.com/authentication-between-microservices-is-it-really-that-hard/
 - REST API URI Naming Conventions: https://restfulapi.net/resource-naming/
+- DS201: Foundations of Apache Cassandra
