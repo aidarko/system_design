@@ -1,0 +1,469 @@
+<mxfile host="app.diagrams.net" modified="2024-01-09T01:37:10.904Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="FW7hcA82krmejJF8UKJ4" version="22.1.11" type="device">
+  <diagram name="Page-1" id="ZZSd4HM62RbX2c47QIu4">
+    <mxGraphModel dx="1152" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-402" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-391" target="7qGTJKBD6qKdbUM0u3QY-400">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-391" value="Tasks" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="615" y="1230" width="94" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-326" value="Upload actual video" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry y="315" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-1" value="&lt;div&gt;&lt;b&gt;Step 1 - Problem&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Q: Features?&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;A: Upload and watch video.&lt;br&gt;&lt;/div&gt;&lt;div&gt;Q: What clients?&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;A: Mobile apps, web browsers, smart TV&lt;/div&gt;&lt;div&gt;Q: DAU?&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;A: 5 million&lt;/div&gt;&lt;div&gt;Q: Average daily time? &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;A: 30 minutes.&lt;/div&gt;&lt;div&gt;Q: Support international users? &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;A: yes&lt;/div&gt;&lt;div&gt;Q: Video resolutions? &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;A: Yes.&lt;/div&gt;&lt;div&gt;Q: Encryption?&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;A: Yes.&lt;/div&gt;&lt;div&gt;Q: File size?&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;A: 1GB max.&lt;/div&gt;&lt;div&gt;Q: Can we leverage some of the existing cloud infrastructures provided by Amazon, Google or Microsoft? A: Some.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Back of the envelope estimation:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;1. Average video size 300mb&lt;/div&gt;&lt;div&gt;2. 10% of users upload 1 video per day&lt;/div&gt;&lt;div&gt;3. User watches 5 videos per day.&lt;/div&gt;&lt;div&gt;4. DAU 5 million.&lt;/div&gt;&lt;div&gt;5. Total daily storage = 5 mln * 10% * 300 = 150TB&lt;/div&gt;&lt;div&gt;6. CDN cost: 100% traffic in US =&amp;gt;&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; 5 mln * 5 videos * 0.3GB * &lt;b style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;$0.02&lt;/b&gt; = $150.000&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry width="420" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-32" value="1" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;glass=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="380" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-102" value="2" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;glass=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="170" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-319" value="System design interviews are not about building everything from scratch. Within the limited time frame choosing the right technology to do a job right is more important than explaining how the technology works in details.&lt;br&gt;&lt;br&gt;Mentioning blob storage for storing source videos is enough for the interview.&lt;br&gt;&lt;br&gt;Building scalable blob storage or CDN is complex. Large companies leverage 3rd party services (AWS, Akamai)." style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="430" width="390" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-320" value="API Servers" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.datacenter;" vertex="1" parent="1">
+          <mxGeometry x="670" y="290" width="40" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-323" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-321" target="7qGTJKBD6qKdbUM0u3QY-322">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-324" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-321" target="7qGTJKBD6qKdbUM0u3QY-320">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-321" value="Client&lt;br&gt;(web, mobile, TV)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-322" value="CDN" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="286.5" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-325" value="3" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;glass=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry y="320" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-331" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="7qGTJKBD6qKdbUM0u3QY-330">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="39" y="420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-329" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-328">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="379" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-328" value="Client&lt;br&gt;(web, mobile, TV)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="364" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-340" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="7qGTJKBD6qKdbUM0u3QY-339">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="39" y="715" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-330" value="Transcoding&amp;nbsp;&lt;br&gt;servers" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.datacenter;" vertex="1" parent="1">
+          <mxGeometry x="19" y="645" width="40" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-332" value="Original storage" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#575757;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.bucket_with_objects;" vertex="1" parent="1">
+          <mxGeometry x="21.999999999999993" y="358" width="40.38" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-336" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-335" target="7qGTJKBD6qKdbUM0u3QY-328">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-335" value="Load Balancer" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#231440;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.application_load_balancer;" vertex="1" parent="1">
+          <mxGeometry x="261" y="430" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-349" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-337" target="7qGTJKBD6qKdbUM0u3QY-348">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-337" value="Completion queue" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#000000;shape=mxgraph.azure.queue_generic" vertex="1" parent="1">
+          <mxGeometry x="240" y="649.5" width="80" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-338" value="transcoding complete" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-330">
+          <mxGeometry x="0.0055" y="16" relative="1" as="geometry">
+            <mxPoint x="240" y="661" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-342" value="most popular videos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-339" target="7qGTJKBD6qKdbUM0u3QY-341">
+          <mxGeometry x="-0.0397" y="16" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-339" value="Transcoded&lt;br&gt;storage" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#575757;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.bucket_with_objects;" vertex="1" parent="1">
+          <mxGeometry x="18.999999999999993" y="745" width="40.38" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-341" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#575757;strokeColor=none;fontColor=#232F3E;sketch=0;gradientColor=none;dashed=0;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="289.78" y="748" width="50.43" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-343" value="CDN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="285" y="784" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-344" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=3.2222222222219443;" vertex="1" parent="1">
+          <mxGeometry x="295" y="520" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-345" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=3.2222222222219443;" vertex="1" parent="1">
+          <mxGeometry x="305" y="530" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-346" value="Metadata DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="570" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-347" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7qGTJKBD6qKdbUM0u3QY-344">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="490" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-354" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-348" target="7qGTJKBD6qKdbUM0u3QY-346">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="620" />
+              <mxPoint x="325" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-355" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-348" target="7qGTJKBD6qKdbUM0u3QY-352">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="620" />
+              <mxPoint x="230" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-348" value="Completion&amp;nbsp;&lt;br&gt;handler" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.datacenter;" vertex="1" parent="1">
+          <mxGeometry x="374" y="645" width="40" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-350" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cache_node;fillColor=#808080;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="520" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-351" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cache_node;fillColor=#808080;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="216" y="535" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-352" value="Metadata Cache" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="570" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-353" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.95;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7qGTJKBD6qKdbUM0u3QY-350">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="490" as="sourcePoint" />
+            <mxPoint x="325" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-357" value="&lt;div&gt;&lt;b&gt;BLOB -&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Binary Large Object&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="155" width="180" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-359" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-358" target="7qGTJKBD6qKdbUM0u3QY-330">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-358" value="Covert a video to other formats (MPEG, HLS)" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="560" width="100" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-360" value="Better to draw diagram for each use case separately." style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="430" y="350" width="285" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-361" value="Update Metadata" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="390" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-362" value="4" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;glass=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="394" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-366" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-364" target="7qGTJKBD6qKdbUM0u3QY-365">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-364" value="Client&lt;br&gt;(web, mobile, TV)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-365" value="Load Balancer" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#231440;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.application_load_balancer;" vertex="1" parent="1">
+          <mxGeometry x="606" y="482" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-367" value="API Servers" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.datacenter;" vertex="1" parent="1">
+          <mxGeometry x="605" y="568" width="40" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-368" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="624.72" y="544" as="sourcePoint" />
+            <mxPoint x="624.72" y="566" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-369" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=3.2222222222219443;" vertex="1" parent="1">
+          <mxGeometry x="645" y="660" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-370" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=3.2222222222219443;" vertex="1" parent="1">
+          <mxGeometry x="655" y="670" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-371" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7qGTJKBD6qKdbUM0u3QY-369">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="630" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-372" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cache_node;fillColor=#808080;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="660" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-373" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cache_node;fillColor=#808080;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="566" y="675" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-374" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.95;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7qGTJKBD6qKdbUM0u3QY-372">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="630" as="sourcePoint" />
+            <mxPoint x="675" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-375" value="Video streaming flow" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry y="830" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-376" value="5" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;glass=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry y="834" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-377" value="&lt;div&gt;video protocols used on the internet include:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;HTTP Live Streaming (HLS)&lt;/b&gt;: HLS is widely used for streaming videos on the web. It breaks the video into small chunks and uses a playlist file (.m3u8) to manage the streaming. It is supported by most modern web browsers and mobile devices.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Dynamic Adaptive Streaming over HTTP (DASH):&lt;/b&gt; Similar to HLS, DASH also breaks the video into smaller segments and adapts to varying network conditions. It is a format that aims for a more standardized approach to adaptive streaming and is codec-agnostic.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Progressive Download&lt;/b&gt;: This is a simple method where the video file is downloaded to the user&#39;s device as a whole before playback begins. It is not as adaptive as streaming protocols, but it is supported by a wide range of devices.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;RTMP (Real-Time Messaging Protocol)&lt;/b&gt;: While becoming less common, RTMP is still used for live streaming and is supported by Adobe Flash Player. However, many modern platforms are moving away from Flash, favoring HTML5-based solutions.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;WebRTC (Web Real-Time Communication)&lt;/b&gt;: WebRTC is a free, open-source project that provides web browsers and mobile applications with real-time communication via simple application programming interfaces (APIs). It is often used for peer-to-peer communication and live streaming.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="432" y="830" width="395" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-378" value="&lt;div&gt;&lt;b&gt;Video Compression&lt;/b&gt;: Before streaming, the video content is typically compressed using a video codec such as &lt;span style=&quot;background-color: rgb(255, 255, 0);&quot;&gt;H.264 (AVC)&lt;/span&gt; or &lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;H.265 (HEVC)&lt;/span&gt;. These codecs use various compression techniques to reduce the size of the video file while maintaining acceptable visual quality.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Segmentation&lt;/b&gt;: The compressed video is then divided into smaller segments, typically a few seconds in duration. Each segment represents a chunk of the video content.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Playlist File&lt;/b&gt;: HLS uses a playlist file with an .m3u8 extension to manage the streaming. This file contains information about the video segments, their durations, and the URLs where they can be fetched.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Adaptive Streaming&lt;/b&gt;: One of the key features of HLS is adaptive streaming. The playlist contains multiple versions of each segment at different bitrates and resolutions. The client device can dynamically switch between these versions based on the available network bandwidth, ensuring a smooth playback experience under varying conditions.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="14" y="990" width="400" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-379" value="streaming video" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-380" target="7qGTJKBD6qKdbUM0u3QY-381">
+          <mxGeometry y="45" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-380" value="Client&lt;br&gt;(web, mobile, TV)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="141.00000000000003" y="870" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-381" value="CDN" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="171.00000000000003" y="940" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-382" value="&lt;div&gt;&lt;b&gt;Video transcoding&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- raw video takes large storage space&lt;/div&gt;&lt;div&gt;- browsers support certain types of video&lt;/div&gt;&lt;div&gt;- resolution should depend on network&lt;/div&gt;&lt;div&gt;- computationally expensive&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Encoding formats:&lt;/div&gt;&lt;div&gt;- &lt;b&gt;container &lt;/b&gt;(basket with video, audio, metadata): &lt;b&gt;.avi, .mov, .mp4&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- &lt;b&gt;codecs &lt;/b&gt;(compression and decompression): &lt;b&gt;h.264, vp9, hevc&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;VP9 &lt;/b&gt;offer better compression than older codecs like H.264 and are becoming more widely supported.&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;H.264 codec&amp;nbsp;&lt;/b&gt;widely supported and compatible with many browsers&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="14" y="1270" width="400" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-388" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-383" target="7qGTJKBD6qKdbUM0u3QY-384">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-389" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-383" target="7qGTJKBD6qKdbUM0u3QY-386">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="516" y="1425" />
+              <mxPoint x="516" y="1355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-390" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-383" target="7qGTJKBD6qKdbUM0u3QY-385">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="516" y="1425" />
+              <mxPoint x="516" y="1485" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-383" value="Original video" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1410" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-392" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-384" target="7qGTJKBD6qKdbUM0u3QY-387">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-384" value="Audio" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="536" y="1410" width="54" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-385" value="Metadata" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="536" y="1470" width="64" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-399" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.02;entryY=0.781;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-386" target="7qGTJKBD6qKdbUM0u3QY-391">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-386" value="Video" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="536" y="1340" width="54" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-401" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-387" target="7qGTJKBD6qKdbUM0u3QY-400">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-387" value="Audio&lt;br&gt;encoding" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="1410" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-393" value="Inspection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="624" y="1260" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-395" value="Transcoding" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="624" y="1290" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-396" value="Thumbnail" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="624" y="1320" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-397" value="Watermark" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="624" y="1360" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-398" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="631.5" y="1330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-400" value="Assemble" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-410" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-403" target="7qGTJKBD6qKdbUM0u3QY-407">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="1570" as="sourcePoint" />
+            <mxPoint x="745" y="1590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="702.5" y="1540" />
+              <mxPoint x="702.5" y="1600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-412" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-403" target="7qGTJKBD6qKdbUM0u3QY-405">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-413" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-403" target="7qGTJKBD6qKdbUM0u3QY-406">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="702.5" y="1540" />
+              <mxPoint x="702.5" y="1570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-414" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-403" target="7qGTJKBD6qKdbUM0u3QY-408">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="702.5" y="1540" />
+              <mxPoint x="702.5" y="1630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-415" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-403" target="7qGTJKBD6qKdbUM0u3QY-409">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="702.5" y="1540" />
+              <mxPoint x="702.5" y="1660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-403" value="Transcoding" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="1530" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-405" value="360p.mp4" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="718.5" y="1530" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-406" value="480p.mp4" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="718.5" y="1560" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-407" value="720p.mp4" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="718.5" y="1590" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-408" value="1080p.mp4" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="718.5" y="1620" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-409" value="4k.mp4" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="719" y="1650" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-422" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-416" target="7qGTJKBD6qKdbUM0u3QY-417">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-427" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-416" target="7qGTJKBD6qKdbUM0u3QY-421">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="1520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-416" value="Preprocessor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="14" y="1570" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-423" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-417" target="7qGTJKBD6qKdbUM0u3QY-418">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-417" value="DAG scheduler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="117.5" y="1570" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-424" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="7qGTJKBD6qKdbUM0u3QY-419">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="1590" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-418" value="Resource&lt;br&gt;manager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1570" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-425" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-419" target="7qGTJKBD6qKdbUM0u3QY-421">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-426" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-419" target="7qGTJKBD6qKdbUM0u3QY-420">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-419" value="Task workers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="1570" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-420" value="Encoded video" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1570" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-421" value="Temporary storage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="1500" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-428" value="1. Split video&lt;br&gt;2. DAG generation (download, transcode)&lt;br&gt;3. Store" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="13" y="1610" width="126" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-430" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-429" target="7qGTJKBD6qKdbUM0u3QY-417">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-429" value="Splits&amp;nbsp;DAG&amp;nbsp; graph into stages and puts into task queue in resource manager" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="92" y="1670" width="126" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-431" value="Resource allocation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="228.5" y="1610" width="58" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-432" value="Airflow?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="322" y="1650" width="76" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-434" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;exitX=0.052;exitY=0.019;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-433" target="7qGTJKBD6qKdbUM0u3QY-431">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-433" value="Resource manager. Has task scheduler, that picks optimal task worker. Operates on top of 3 queries:&lt;br&gt;1. Task queue: priority queue that contains tasks to be executed&lt;br&gt;2. Worker queue: priority queue that contains worker utilization info&lt;br&gt;3. Running queue: running tasks and workers running the tasks" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1710" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-435" value="GOP1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="108.5" y="390" width="61.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-436" value="GOP2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="108.5" y="414" width="61.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-437" value="GOPN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="109.5" y="439" width="61.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-438" value="&lt;div&gt;&lt;b&gt;GOP -&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Group of Picuters&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="176" width="180" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-439" value="Safety optimization: pre-signed upload URL" style="text;html=1;strokeColor=#FFFFFF;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="4" y="1800" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-440" value="6" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;glass=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="4" y="1804" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-441" value="Only authorized users can upload videos to the right location.&lt;br&gt;A client makes HTTP request to API servers to fetch pre-signed URL (S3)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="4" y="1840" width="426" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-443" value="3. upload video" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-444">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="1911" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-452" value="1. POST /upload" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.409;exitY=0.944;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7qGTJKBD6qKdbUM0u3QY-444" target="7qGTJKBD6qKdbUM0u3QY-451">
+          <mxGeometry x="0.1225" y="-49" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="289" y="1960" />
+              <mxPoint x="289" y="1960" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-444" value="Client&lt;br&gt;(web, mobile, TV)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1896" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-445" value="Original storage" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#575757;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.bucket_with_objects;" vertex="1" parent="1">
+          <mxGeometry x="31.999999999999993" y="1890" width="40.38" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-446" value="2. pre-signed URL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="7qGTJKBD6qKdbUM0u3QY-444">
+          <mxGeometry x="-0.2743" y="-50" relative="1" as="geometry">
+            <mxPoint x="300" y="1962.000431808368" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qGTJKBD6qKdbUM0u3QY-451" value="API Servers" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.datacenter;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1970" width="40" height="33" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
