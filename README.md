@@ -9,3 +9,4 @@ Additional links:
 - Authentication between microservices: https://www.doit.com/authentication-between-microservices-is-it-really-that-hard/
 - REST API URI Naming Conventions: https://restfulapi.net/resource-naming/
 - DS201: Foundations of Apache Cassandra
+- Video streaming protocols https://www.dacast.com/blog/streaming-protocols/
